@@ -1,0 +1,118 @@
+
+.image-and-text {
+    display: flex;
+    align-items: center;
+}
+
+
+.text-content {
+    align-items: center;
+    padding-left: 10px;
+
+}
+.chocoPizza {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  width: 100%;
+  
+}
+
+
+
+figure {
+    display: flex;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    color: rgb(44, 44, 44);
+    padding: 10px;
+}
+
+.title strong {
+    margin-left: auto;
+
+}
+
+strong {
+    display: flex;
+    margin: left;
+}
+
+.title {
+    margin-right: auto;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding: 10px;
+}
+
+.content p {
+    text-align: center;
+}
+
+.backgroundImg {
+    position: relative;
+    background-image: url('/images/list-bg.png');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    z-index: 0;
+}
+
+label {
+    position: relative;
+    z-index: 3;
+    text-align: center;
+    padding: 20px;
+    background-color: transparent;
+}
+
+
+.bottomBar {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    width: 80%;
+}
+
+.venessapic {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.textforbottomBar {
+    display: inline-block;
+
+    vertical-align: top;
+}
+
+a {
+    display: inline-block;
+    padding: 10px;
+    background-color: #0074e4;
+    color: #fff;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer{
+ 
+    width: 100%;
+    text-align: center;
+}
